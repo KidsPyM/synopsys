@@ -1,0 +1,6 @@
+site_name: Конспекты Python
+theme:
+  name: material
+  language: ru
+markdown_extensions:
+  - admonition
