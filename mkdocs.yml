@@ -4,3 +4,17 @@ theme:
   language: ru
 markdown_extensions:
   - admonition
+  - pymdownx.tilde
+  - footnotes
+  - tables
+  - md_in_html
+  - toc:
+      slugify: !!python/object/apply:pymdownx.slugs.slugify
+        kwds:
+          case: lower
+nav:
+    # - Home: index.md
+    - Основы:
+      - "Переменные": basics/variables.md
+      - "Типы. База": basics/types.md
+      - Операторы: basics/operators.md

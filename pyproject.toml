@@ -9,6 +9,7 @@ readme = "README.md"
 python = "^3.11"
 mkdocs-material = "^9.0.10"
 mkdocs = {extras = ["i18n"], version = "^1.4.2"}
+pymdown-extensions = "^9.9.2"
 
 
 [build-system]
